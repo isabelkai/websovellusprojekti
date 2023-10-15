@@ -140,12 +140,12 @@ header{
 }
 
 aside{
-    background-color: #F2EFE9;
+    background-color: #716969;
     grid-column-start: span 1;
 }
 
 main{
-    background-color: whitesmoke;
+    background-color: white;
     grid-column-start: span 2;
 }
 
@@ -311,4 +311,79 @@ footer{
     margin-bottom: 16px;
     line-height: 25px;
     padding: 32px;
+}
+
+#contact-form{
+    background: #f9f9f9;
+    text-align: start;
+    padding: 32px;
+    width: 100%;
+    max-width: 710px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form h1{
+    color: rgb(44, 44, 80);
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    padding: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+button{
+    width: 25%;
+    padding: 10px;
+    margin: 20px auto 0;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    outline: none;
+    background-color: rgb(44, 44, 80);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.popup{
+    width: 400px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #202020;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.popup img{
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
