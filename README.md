@@ -19,7 +19,7 @@ HTML structure with clear content differentiation (headings, paragraphs, lists).
 Use of forms, links, and media. (index.html(20-24, 31-35, 42-46, 53-56, 64-88), about.html(18-20, 29-33, 40-44, 51-54), contact.html(90-94))
 
 4/5:
-Tables are effectively used.
+Tables are effectively used. (about.html(71-88))
 
 5/5:
 Consistent use of semantic HTML throughout, ensuring better structure and understanding of the content. (index.html(14,15,27,59,60,93,94), about.html(12,13,60,64,65,68,69,79,82), contact.html)
@@ -49,4 +49,4 @@ Use of arrays, objects, and functions. (contact.html(112-119), app.js(1-5))
 
 ## Asynchronous Operations (25%)
 1/5:
-Use of timers.
+Use of timers. (index.html(92, 101-105))
